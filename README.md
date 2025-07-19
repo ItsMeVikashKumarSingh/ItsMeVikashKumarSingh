@@ -9,7 +9,7 @@ I'm a recent B.Tech graduate in Artificial Intelligence & Data Science (2025), p
 - 🔐 Passionate about secure systems, leveraging JWT, Argon2, and XSalsa20.
 - 📄 Published 2 research papers on security and AI-driven program repair.
 - ☁️ Experienced with Firebase, GCP, and AWS for cloud-based solutions.
-- 🌐 Explore my work at [aboutvikash.netlify.app](https://aboutvikash.netlify.app).
+- 🌐 Explore my work at [aboutvikash.netlify.app](https://portfolio-vikash-kumar-singh.netlify.app).
 
 ---
 
@@ -63,7 +63,7 @@ I'm a recent B.Tech graduate in Artificial Intelligence & Data Science (2025), p
 ---
 
 ## 📄 Portfolio & Resume
-- 🌐 [Portfolio](https://aboutvikash.netlify.app)
+- 🌐 [Portfolio](https://portfolio-vikash-kumar-singh.netlify.app)
 - 📄 [Download My Resume](https://drive.google.com/file/d/1d5Xhz8m-8RIuifLz7ybzYfvMRBagI5mC/view)
 
 ---
