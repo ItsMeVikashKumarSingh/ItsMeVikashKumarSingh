@@ -9,7 +9,7 @@ I'm a recent B.Tech graduate in Artificial Intelligence & Data Science (2025), p
 - 🔐 Passionate about secure systems, leveraging JWT, Argon2, and XSalsa20.
 - 📄 Published 2 research papers on security and AI-driven program repair.
 - ☁️ Experienced with Firebase, GCP, and AWS for cloud-based solutions.
-- 🌐 Explore my work at [aboutvikash.netlify.app](https://portfolio-vikash-kumar-singh.netlify.app).
+- 🌐 Explore my work at [https://portfolio-vikash-kumar-singh.netlify.app](https://portfolio-vikash-kumar-singh.netlify.app).
 
 ---
 
@@ -46,9 +46,9 @@ I'm a recent B.Tech graduate in Artificial Intelligence & Data Science (2025), p
   Android e-commerce platform with buyer/seller support, UPI/COD payments, and secure login.  
   **Tech**: Java, Firebase | **Stars**: 0 | **Forks**: 0 | **Issues**: 0  
 
-- **[server](https://github.com/ItsMeVikashKumarSingh/server)**  
+- **[Secure Authentication System](https://github.com/ItsMeVikashKumarSingh/Secure-Authentication-System)**  
   Secure login backend using JWTs, Firebase Auth, and MongoDB for robust authentication.  
-  **Tech**: JavaScript, Firebase, MongoDB | **Stars**: 0 | **Forks**: 0 | **Issues**: 0  
+  **Tech**: JavaScript, Firebase, MongoDB,RESTful APIs | **Stars**: 0 | **Forks**: 0 | **Issues**: 0  
 
 ---
 
