@@ -1,98 +1,95 @@
-# 👋 Hi, I'm Vikash Kumar Singh
+<p align="center">
+  <img src="./assets/holographic-foil.svg" alt="Vikash Kumar Singh — Java Backend Developer · AI Agents &amp; Systems" width="100%" />
+</p>
 
-I'm a recent B.Tech graduate in Artificial Intelligence & Data Science (2025), passionate about building secure, scalable Android and backend applications. Currently seeking full-time opportunities in Android or backend development, I specialize in creating real-world solutions using Java, Firebase, and modern software design practices.
-
----
-
-## 🚀 About Me
-- 💻 44+ public repositories showcasing Android apps, secure backends, and AI-driven projects.
-- 🔐 Passionate about secure systems, leveraging JWT, Argon2, and XSalsa20.
-- 📄 Published 2 research papers on security and AI-driven program repair.
-- ☁️ Experienced with Firebase, GCP, and AWS for cloud-based solutions.
-- 🌐 Explore my work at [https://portfolio-vikash-kumar-singh.netlify.app](https://portfolio-vikash-kumar-singh.netlify.app).
+<p align="center">
+  <a href="https://vikashkumarsingh.xyz/"><img src="https://img.shields.io/badge/Portfolio-vikashkumarsingh.xyz-07314e?style=for-the-badge&logo=firefox&logoColor=bfe4f7" alt="Website" /></a>
+  <a href="https://www.linkedin.com/in/itsmevikashsingh/"><img src="https://img.shields.io/badge/LinkedIn-itsmevikashsingh-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/ItsMeVikashKumarSingh"><img src="https://img.shields.io/badge/GitHub-67+_Repos-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="mailto:vikashkumarsingh8352@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
 
 ---
 
-## 🔭 Currently
-- 🚧 Building: [RideEase](https://github.com/ItsMeVikashKumarSingh/RideEase) – Android ride-sharing app with real-time tracking.
-- 🌱 Learning: REST APIs with Spring Boot and LLMs with Hugging Face.
+### 🏛️ Atelier &amp; Philosophy
+
+> *"Engineering secure, scalable backend architectures from cryptographic primitives to intuitive, reliable user experiences."*
+
+Software Engineer at **Tata Consultancy Services (TCS)** with 67+ public repositories across backend architecture, post-quantum cryptography, AI-driven routing, and Android applications. Dedicated to high-assurance backend systems, cryptographic integrity, and robust software architectures. Passionate about systems programming, privacy-preserving identity protocols, and low-level engineering.
+
+- 🎓 **Academics**: B.Tech in Artificial Intelligence &amp; Data Science (2025) · CGPA 8.14/10
+- 📜 **Certifications**: Red Hat Certified System Administrator (**RHCSA**) · Google Cloud Developer Certified
+- 📍 **Location**: Vaishali, Bihar, India
 
 ---
 
-## 🛠️ Skills & Technologies
-**Languages**: Java, C, C++, JavaScript, Python  
-**Frameworks & Libraries**: Flask, FastAPI, Spring Boot, Node.js  
-**Tools & Platforms**: Android Studio, Firebase, MongoDB, Docker, AWS, GCP, Git, Linux  
-**Design**: Figma, Sass  
+### 🛠️ Technical Specification
 
-[![My Skills](https://skillicons.dev/icons?i=java,flask,nodejs,git,docker,mongodb,fastapi,sass,spring,androidstudio,c,cpp,firebase,figma,github,linux,replit,aws,ai,md&perline=6)](https://skillicons.dev)
-
----
-
-## 📌 Top Projects
-- **[hacktoberfest](https://github.com/ItsMeVikashKumarSingh/hacktoberfest)**  
-  Vibrant contribution hub for Hacktoberfest 2024, encouraging DSA and beginner-friendly programs.  
-  **Tech**: C | **Stars**: 3 | **Forks**: 7 | **Issues**: 0  
-
-- **[RideEase](https://github.com/ItsMeVikashKumarSingh/RideEase)**  
-  Open-source Android ride-sharing app connecting drivers and passengers with real-time tracking.  
-  **Tech**: Java, Firebase | **Stars**: 0 | **Forks**: 0 | **Issues**: 0  
-
-- **[Zorvik-AI](https://github.com/ItsMeVikashKumarSingh/Zorvik-AI)**  
-  Web-based AI chat app with next-word prediction, LaTeX rendering, and code support.  
-  **Tech**: JavaScript, FastAPI, Firebase Firestore, Vercel | **Stars**: 0 | **Forks**: 0 | **Issues**: 0  
-
-- **[E-Shop](https://github.com/ItsMeVikashKumarSingh/E-Shop)**  
-  Android e-commerce platform with buyer/seller support, UPI/COD payments, and secure login.  
-  **Tech**: Java, Firebase | **Stars**: 0 | **Forks**: 0 | **Issues**: 0  
-
-- **[Secure Authentication System](https://github.com/ItsMeVikashKumarSingh/Secure-Authentication-System)**  
-  Secure login backend using JWTs, Firebase Auth, and MongoDB for robust authentication.  
-  **Tech**: JavaScript, Firebase, MongoDB,RESTful APIs | **Stars**: 0 | **Forks**: 0 | **Issues**: 0  
+```
+┌─────────────────┬──────────────────────────────────────────────────────────────────┐
+│ LAYER           │ TECHNOLOGIES & TOOLS                                             │
+├─────────────────┼──────────────────────────────────────────────────────────────────┤
+│ Core Languages  │ Java (17/21), Python, JavaScript, TypeScript, C, C++, Rust, Bash │
+│ Backend Core    │ Spring Boot, Spring Security, Keycloak, Node.js, Express, REST   │
+│ AI & Systems    │ Autonomous AI Agents, Multi-Model Routing, SSE Streaming, MCP    │
+│ Cryptography    │ Libsodium, Argon2, JWT, TOTP 2FA, ML-KEM / ML-DSA (PQC)         │
+│ Storage & Cache │ PostgreSQL, MySQL, MongoDB, Redis, Firebase Firestore            │
+│ Systems & Cloud │ Red Hat Enterprise Linux (RHCSA), Docker, Git, GCP, AWS          │
+└─────────────────┴──────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## 📊 GitHub Stats
-🏆 **Public Repositories**: 44  
-👥 **Followers**: 4  
-👤 **Following**: 2  
+### 🚀 Top Featured Projects
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ItsMeVikashKumarSingh&show_icons=true&theme=radical)  
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ItsMeVikashKumarSingh&layout=compact&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
-
----
-
-## 📄 Portfolio & Resume
-- 🌐 [Portfolio](https://portfolio-vikash-kumar-singh.netlify.app)
-- 📄 [Download My Resume](https://drive.google.com/file/d/1d5Xhz8m-8RIuifLz7ybzYfvMRBagI5mC/view)
-
----
-
-## 📬 Connect with Me
-- 📧 Email: [vikashkumarsingh8352@gmail.com](mailto:vikashkumarsingh8352@gmail.com)  
-- 💬 Telegram: [@encrypted_ghost](https://t.me/encrypted_ghost)  
-- 🔗 LinkedIn: [linkedin.com/in/itsmevikashkumarsingh](https://linkedin.com/in/itsmevikashkumarsingh)  
-- 📍 Location: Hajipur, Bihar, India  
-
-💡 **Interested in collaborating or hiring?** Reach out via [email](mailto:vikashkumarsingh8352@gmail.com) or [LinkedIn](https://linkedin.com/in/itsmevikashkumarsingh)!
+| Repository | Tech Stack | Overview |
+| :--- | :--- | :--- |
+| **[Zorvik-AI](https://github.com/ItsMeVikashKumarSingh/Zorvik-AI)** | TypeScript, FastAPI, Redis | Multi-model AI routing platform with circuit breakers, model fallbacks, and real-time SSE streaming. |
+| **[Student-Management](https://github.com/ItsMeVikashKumarSingh/Student-Management)** | Java, Spring Boot, MySQL | Secure full-stack system with role-based access control, course assignments with autocomplete, and REST APIs. |
+| **[Secure-Authentication-System](https://github.com/ItsMeVikashKumarSingh/Secure-Authentication-System)** | Node.js, Libsodium, Argon2 | Privacy-first, zero-knowledge auth engine using client-server encrypted envelopes and TOTP 2FA. |
+| **[pqc-migration-framework](https://github.com/ItsMeVikashKumarSingh/pqc-migration-framework)** | Python, Cryptography, PQC | Post-quantum migration SDK implementing hybrid key exchange (X25519 + ML-KEM) and dual signatures. |
+| **[RideEase](https://github.com/ItsMeVikashKumarSingh/RideEase)** | Java, Android, Firebase | Real-time Android ride-sharing platform connecting passengers and drivers with live GPS telemetry. |
+| **[E-Shop](https://github.com/ItsMeVikashKumarSingh/E-shop)** | Java, Android, Firebase | E-Commerce app with buyer/seller verification, cart workflows, and UPI/COD payment integration. |
+| **[AppBlocker](https://github.com/ItsMeVikashKumarSingh/AppBlocker)** | Java, Android SDK | Android utility designed to enforce digital wellbeing by restricting distracting games and unauthorized VPN connections. |
+| **[hacktoberfest](https://github.com/ItsMeVikashKumarSingh/hacktoberfest)** | C, DSA | Curated open-source contribution hub for data structures, algorithms, and beginner-friendly workflows. |
+| **[portfolio-website](https://github.com/ItsMeVikashKumarSingh/portfolio-website)** | HTML5, CSS3, JavaScript | Modern, responsive developer portfolio showcasing technical publications, projects, and live demos. |
 
 ---
 
-## 📚 Publications
-- [Comparison of XChaCha20 and Argon2 with AES and bcrypt: Performance, Security, and Implementation](http://journalcrd.org/wp-content/uploads/38-CRD2780.pdf)  
-  *Analyzed modern encryption algorithms for secure authentication, CRD Journal, Vol. 25, Issue 4 (2025)*  
-- [Neural Program Repair: Automatic Bug Detection and Patch Generation Using Deep Learning](http://journalcrd.org/wp-content/uploads/9-CRD2851.pdf)  
-  *Proposed a deep learning model for automated code repair, CRD Journal, Vol. 25, Issue 5 (2025)*  
+### 📊 Engineering Velocity &amp; Cadence
+
+<p align="center">
+  <img src="./assets/analytics-grid.svg" alt="Engineering velocity and cadence" width="100%" />
+</p>
 
 ---
 
-## 🎓 Certifications
-- [Red Hat Certified System Administrator](https://drive.google.com/file/d/1brhxuV4hPgRolQ_6cNFFjKm9HzEzJoTg/view) – *RedHat, April 2023*
+### 📈 Language Distribution &amp; Streak Consistency
+
+<p align="center">
+  <img src="./assets/top-langs.svg" alt="Most Used Languages" width="48%" />
+  <img src="https://streak-stats.demolab.com/?user=ItsMeVikashKumarSingh&theme=dark&hide_border=true" alt="GitHub Streak" width="48%" />
+</p>
 
 ---
 
-## 💬 Ask Me About
-Android, Firebase Security, Real-time systems, JWT, AI-driven development
+### 📚 Research Publications
 
-## ⚡ Fun Fact
-I love reverse engineering apps and understanding system internals
+- **[Comparison of XChaCha20 and Argon2 with AES and bcrypt: Performance, Security, and Implementation](http://journalcrd.org/wp-content/uploads/38-CRD2780.pdf)**  
+  *Analyzed modern encryption algorithms for secure authentication · CRD Journal, Vol. 25, Issue 4 (2025)*
+- **[Neural Program Repair: Automatic Bug Detection and Patch Generation Using Deep Learning](http://journalcrd.org/wp-content/uploads/9-CRD2851.pdf)**  
+  *Deep learning model for automated program bug triage and repair · CRD Journal, Vol. 25, Issue 5 (2025)*
+
+---
+
+### 💬 Ask Me About
+Android, Firebase Security, Real-Time Distributed Systems, JWT, AI-Driven Development &amp; Reverse Engineering
+
+### ⚡ Fun Fact
+I love reverse engineering applications and understanding system internals down to binary execution paths!
+
+---
+
+<p align="center">
+  <sub>Designed &amp; Maintained by <strong>Vikash Kumar Singh</strong> · <a href="https://vikashkumarsingh.xyz/">vikashkumarsingh.xyz</a> · <a href="https://www.linkedin.com/in/itsmevikashsingh/">LinkedIn</a> · <a href="mailto:vikashkumarsingh8352@gmail.com">vikashkumarsingh8352@gmail.com</a></sub>
+</p>
