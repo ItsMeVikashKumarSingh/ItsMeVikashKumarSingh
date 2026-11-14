@@ -33,7 +33,7 @@
   <!-- Total Contributions -->
   <g transform="translate(260, 85)">
     <text x="0" y="0" font-family="'JetBrains Mono', monospace" font-size="10" fill="#7fc4e6" letter-spacing="1.5">TOTAL CONTRIBUTIONS</text>
-    <text x="0" y="24" font-family="'Inter', system-ui, sans-serif" font-size="22" font-weight="700" fill="#ffffff">2,084<tspan fill="#a78bfa" font-size="16">+</tspan></text>
+    <text x="0" y="24" font-family="'Inter', system-ui, sans-serif" font-size="22" font-weight="700" fill="#ffffff">2,471<tspan fill="#a78bfa" font-size="16">+</tspan></text>
     <text x="82" y="22" font-family="'JetBrains Mono', monospace" font-size="10" fill="#a78bfa">streak active</text>
   </g>
 

@@ -24,21 +24,30 @@ def get_stats():
     followers = user_data.get("followers", 7)
     following = user_data.get("following", 4)
 
-    # 2. Fetch language breakdown and contributions
-    lang_totals = {}
-    total_contributions = 2184 # default fallback
+    # 2. Fetch all-time total contributions from streak stats (matches the live streak card)
+    total_contributions = 2471
+    try:
+        req = urllib.request.Request(
+            f"https://streak-stats.demolab.com/?user={USERNAME}",
+            headers={"User-Agent": "Mozilla/5.0"}
+        )
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            raw_svg = resp.read().decode("utf-8")
+            match = re.search(r'Total Contributions big number -->.*?<text[^>]*>\s*([0-9,]+)\s*</text>', raw_svg, re.DOTALL)
+            if match:
+                total_contributions = int(match.group(1).replace(",", ""))
+    except Exception as e:
+        print("Notice fetching from streak stats:", e)
 
-    # Try GraphQL first if token is available
+    # 3. Fetch language breakdown
+    lang_totals = {}
+
+    # Try GraphQL for deep language breakdown if token is available
     if TOKEN:
         try:
             query = """
             query($username: String!) {
               user(login: $username) {
-                contributionsCollection {
-                  contributionCalendar {
-                    totalContributions
-                  }
-                }
                 repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {
                   nodes {
                     languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
@@ -63,9 +72,6 @@ def get_stats():
             with urllib.request.urlopen(req, timeout=15) as resp:
                 gql_res = json.loads(resp.read().decode("utf-8"))
                 user_gql = gql_res.get("data", {}).get("user", {})
-                contribs = user_gql.get("contributionsCollection", {}).get("contributionCalendar", {}).get("totalContributions")
-                if contribs and contribs > 0:
-                    total_contributions = contribs
                 
                 repos = user_gql.get("repositories", {}).get("nodes", [])
                 for r in repos:
