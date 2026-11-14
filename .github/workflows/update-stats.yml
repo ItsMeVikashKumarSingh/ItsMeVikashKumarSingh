@@ -1,0 +1,47 @@
+name: Auto Update Profile Telemetry & Stats
+
+on:
+  schedule:
+    # Runs daily at midnight UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/update-stats.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update-telemetry:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Stats Updater
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/update_stats.py
+
+      - name: Commit & Push Changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add assets/
+          if git diff --staged --quiet; then
+            echo "No stats changes detected."
+          else
+            git commit -m "chore(stats): auto-update dynamic telemetry & stats [skip ci]"
+            git push
+          fi
