@@ -136,9 +136,9 @@ def update_holographic_foil(stats):
     with open(filepath, "r", encoding="utf-8") as f:
         content = f.read()
 
-    # Update CONTRIBUTIONS count
+    # Update TOTAL CONTRIBUTIONS count
     content = re.sub(
-        r'(<text[^>]*letter-spacing="3">CONTRIBUTIONS</text>\s*<text[^>]*>)[^<]*(<tspan[^>]*>[^<]*</tspan></text>)',
+        r'(<text[^>]*letter-spacing="3">(?:TOTAL )?CONTRIBUTIONS</text>\s*<text[^>]*>)[^<]*(<tspan[^>]*>[^<]*</tspan></text>)',
         rf'\g<1>{stats["total_contributions"]:,}\g<2>',
         content
     )
